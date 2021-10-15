@@ -99,8 +99,6 @@ public class teorema2 extends javax.swing.JFrame {
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 100, 100));
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Brayan Puzul\\Desktop\\Tate_no_Yuusha_no_Nariagari_Serie_de_TV-959299997-large.jpg")); // NOI18N
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 850, 500));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 850, 500));

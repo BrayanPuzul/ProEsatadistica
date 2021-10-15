@@ -34,6 +34,7 @@ public class inicio extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -64,13 +65,16 @@ public class inicio extends javax.swing.JFrame {
         jButton7.setText("TEOREMA 6");
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 250, 160, 50));
 
+        jPanel1.setBackground(new java.awt.Color(153, 0, 153));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 490));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-      teorema1 te1;
-        te1 = new teorema1(this,null);
-      te1.setVisible(true);
+    teorema1 teo1=new teorema1();
+    teo1.setVisible(true);
+    this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
@@ -116,5 +120,6 @@ public class inicio extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
