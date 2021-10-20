@@ -80,7 +80,7 @@ public class teorema1 extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 0, 0));
-        jLabel1.setText("TEOREMA 2");
+        jLabel1.setText("TEOREMA 1");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 140, 40));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/200 (2).gif"))); // NOI18N
@@ -116,14 +116,11 @@ public class teorema1 extends javax.swing.JFrame {
     private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
         try {
             int factorial=1;
-           
-            Integer numero =new Integer (this.datos.getText());
-        
-            for (int i = numero; i >= 1; i--) {
+           int factorial2=2;
+        int numero= Integer.parseInt(datos.getText());
+            for (int i = numero; i > 1; i--) {
                 factorial=factorial * i;
-                
             }
-            
             respuesta.setText(""+factorial);
         } catch (NumberFormatException e) {
             respuesta.setText("Solo se puede ingresar numeros");
