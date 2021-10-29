@@ -9,12 +9,12 @@ package proyecto;
  *
  * @author Brayan Puzul
  */
-public class teorema4 extends javax.swing.JFrame {
+public class teorema4v1 extends javax.swing.JFrame {
 
     /**
-     * Creates new form teorema4
+     * Creates new form teorema4v1
      */
-    public teorema4() {
+    public teorema4v1() {
         initComponents();
         setLocationRelativeTo(null);
     }
@@ -39,30 +39,20 @@ public class teorema4 extends javax.swing.JFrame {
         n2 = new javax.swing.JTextField();
         n3 = new javax.swing.JTextField();
         n4 = new javax.swing.JTextField();
-        n5 = new javax.swing.JTextField();
         boton = new javax.swing.JButton();
         resultado = new javax.swing.JLabel();
-        n6 = new javax.swing.JTextField();
         N = new javax.swing.JTextField();
-        n7 = new javax.swing.JTextField();
-        n8 = new javax.swing.JTextField();
-        n9 = new javax.swing.JTextField();
-        n10 = new javax.swing.JTextField();
-        n11 = new javax.swing.JTextField();
-        n12 = new javax.swing.JTextField();
         s = new javax.swing.JButton();
-        jLabel14 = new javax.swing.JLabel();
+        s1 = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        s1 = new javax.swing.JButton();
         jLabel13 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -78,10 +68,10 @@ public class teorema4 extends javax.swing.JFrame {
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
         jLabel6.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel6.setText("el grado en el cual estan?");
+        jLabel6.setForeground(new java.awt.Color(0, 255, 255));
+        jLabel6.setText("Agregar 12 datos mas");
         jLabel6.setOpaque(true);
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 210, 30));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 260, 190, 30));
 
         jLabel4.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 0));
@@ -105,7 +95,6 @@ public class teorema4 extends javax.swing.JFrame {
         jPanel1.add(n2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 170, 40, 30));
         jPanel1.add(n3, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 170, 40, 30));
         jPanel1.add(n4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, 40, 30));
-        jPanel1.add(n5, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 290, 40, 30));
 
         boton.setBackground(new java.awt.Color(0, 0, 51));
         boton.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 11)); // NOI18N
@@ -116,15 +105,14 @@ public class teorema4 extends javax.swing.JFrame {
                 botonActionPerformed(evt);
             }
         });
-        jPanel1.add(boton, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 350, 140, 50));
+        jPanel1.add(boton, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 310, 140, 50));
 
         resultado.setBackground(new java.awt.Color(255, 255, 0));
         resultado.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
         resultado.setForeground(new java.awt.Color(0, 0, 0));
         resultado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         resultado.setOpaque(true);
-        jPanel1.add(resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 410, 530, 90));
-        jPanel1.add(n6, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 290, 40, 30));
+        jPanel1.add(resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 380, 530, 90));
 
         N.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -132,30 +120,28 @@ public class teorema4 extends javax.swing.JFrame {
             }
         });
         jPanel1.add(N, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 140, 40, 30));
-        jPanel1.add(n7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 290, 40, 30));
-        jPanel1.add(n8, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 290, 40, 30));
-        jPanel1.add(n9, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 290, 40, 30));
-        jPanel1.add(n10, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 290, 40, 30));
-        jPanel1.add(n11, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 290, 40, 30));
-        jPanel1.add(n12, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 290, 40, 30));
 
         s.setBackground(new java.awt.Color(0, 0, 0));
         s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
         s.setForeground(new java.awt.Color(255, 0, 0));
-        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/12.gif"))); // NOI18N
         s.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sActionPerformed(evt);
             }
         });
-        jPanel1.add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 430, 70, 70));
+        jPanel1.add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 290, 70, 70));
 
-        jLabel14.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel14.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel14.setText("desea ingresar mas datos");
-        jLabel14.setOpaque(true);
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, 220, 30));
+        s1.setBackground(new java.awt.Color(0, 0, 0));
+        s1.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s1.setForeground(new java.awt.Color(255, 0, 0));
+        s1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                s1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(s1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 430, 70, 70));
 
         jLabel11.setBackground(new java.awt.Color(0, 0, 0));
         jLabel11.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
@@ -170,24 +156,6 @@ public class teorema4 extends javax.swing.JFrame {
         jLabel9.setText("primer año ");
         jLabel9.setOpaque(true);
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 170, -1, 30));
-
-        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel15.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 255, 255));
-        jLabel15.setText("<-----");
-        jLabel15.setOpaque(true);
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 270, 70, 30));
-
-        s1.setBackground(new java.awt.Color(0, 0, 0));
-        s1.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
-        s1.setForeground(new java.awt.Color(255, 0, 0));
-        s1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/12.gif"))); // NOI18N
-        s1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                s1ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(s1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 300, 70, 70));
 
         jLabel13.setBackground(new java.awt.Color(0, 0, 0));
         jLabel13.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
@@ -210,57 +178,66 @@ public class teorema4 extends javax.swing.JFrame {
         jLabel7.setOpaque(true);
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 880, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/1.jpg"))); // NOI18N
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, 520));
+        jLabel14.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel14.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel14.setText("el grado en el cual estan?");
+        jLabel14.setOpaque(true);
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 210, 30));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, 520));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/1.jpg"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 970, 520));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 970, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 520, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void botonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonActionPerformed
 
-       try {
-           double div;
-           double div2;
-           double div3;
-           double div4;
+        try {
 
-           int factorial=1;
-           int factorial2=1;
-           int factorial3=1;
-           int factorial4=1;
-           int factorial5=1;
-           int factorial6=1;
-           int factorial7=1;
-           int factorial8=1;
-           int factorial9=1;
-           int factorial10=1;
-           int factorial11=1;
-           int factorial12=1;
-           
+            int factorial=1;
+            int factorial2=1;
+            int factorial3=1;
+            int factorial4=1;
+            int factorial5=1;
+
+
             Integer numero =new Integer (this.N.getText());
             Integer numero2 =new Integer (this.n1.getText());
             Integer numero3 =new Integer (this.n2.getText());
             Integer numero4 =new Integer (this.n3.getText());
             Integer numero5 =new Integer (this.n4.getText());
-            Integer numero6 =new Integer (this.n5.getText());
-            Integer numero7 =new Integer (this.n6.getText());
-            Integer numero8 =new Integer (this.n7.getText());
-            Integer numero9 =new Integer (this.n8.getText());
-            Integer numero10 =new Integer (this.n9.getText());
-            Integer numero11 =new Integer (this.n10.getText());
-            Integer numero12 =new Integer (this.n11.getText());
-            Integer numero13 =new Integer (this.n12.getText());
-          
+
+
             for (int i = numero; i >= 1; i--) {
                 factorial=factorial * i;
             }
-           
+
             for(int i = numero2; i>=1;i--){
                 factorial2=factorial2*i;
             }
-            
+
             for(int i = numero3; i>=1;i--){
                 factorial3=factorial3*i;
             }
@@ -270,36 +247,12 @@ public class teorema4 extends javax.swing.JFrame {
             for(int i = numero5; i>=1;i--){
                 factorial5=factorial5*i;
             }
-            for(int i = numero6; i>=1;i--){
-                factorial6=factorial6*i;
-            }
-            for(int i = numero7; i>=1;i--){
-                factorial7=factorial7*i;
-            }
-            for(int i = numero8; i>=1;i--){
-                factorial8=factorial8*i;
-            }
-            for(int i = numero9; i>=1;i--){
-                factorial9=factorial9*i;
-            }
-            for(int i = numero10; i>=1;i--){
-                factorial10=factorial10*i;
-            }
-            for(int i = numero11; i>=1;i--){
-                factorial11=factorial11*i;
-            }
-            for(int i = numero12; i>=1;i--){
-                factorial12=factorial12*i;
-            }
-div = factorial2*factorial3*factorial4;
-div2= div*factorial5*factorial6*factorial7;
-div3= div2*factorial8*factorial9*factorial10;
-div4= div3*factorial11*factorial12;
-            resultado.setText(""+factorial/div4);
+
+
+            resultado.setText(""+factorial/(factorial2*factorial3*factorial4*factorial5));
         } catch (NumberFormatException e) {
             resultado.setText("Solo se puede ingresar numeros");
-        } 
-
+        }
     }//GEN-LAST:event_botonActionPerformed
 
     private void NActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NActionPerformed
@@ -307,13 +260,13 @@ div4= div3*factorial11*factorial12;
     }//GEN-LAST:event_NActionPerformed
 
     private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
-        inicio teo2=new inicio();
+        teorema4 teo2=new teorema4();
         teo2.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_sActionPerformed
 
     private void s1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_s1ActionPerformed
-        teorema4v1 teo2=new teorema4v1();
+        inicio teo2=new inicio();
         teo2.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_s1ActionPerformed
@@ -335,20 +288,20 @@ div4= div3*factorial11*factorial12;
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(teorema4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(teorema4v1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(teorema4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(teorema4v1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(teorema4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(teorema4v1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(teorema4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(teorema4v1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new teorema4().setVisible(true);
+                new teorema4v1().setVisible(true);
             }
         });
     }
@@ -362,7 +315,6 @@ div4= div3*factorial11*factorial12;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -372,17 +324,9 @@ div4= div3*factorial11*factorial12;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField n1;
-    private javax.swing.JTextField n10;
-    private javax.swing.JTextField n11;
-    private javax.swing.JTextField n12;
     private javax.swing.JTextField n2;
     private javax.swing.JTextField n3;
     private javax.swing.JTextField n4;
-    private javax.swing.JTextField n5;
-    private javax.swing.JTextField n6;
-    private javax.swing.JTextField n7;
-    private javax.swing.JTextField n8;
-    private javax.swing.JTextField n9;
     private javax.swing.JLabel resultado;
     private javax.swing.JButton s;
     private javax.swing.JButton s1;

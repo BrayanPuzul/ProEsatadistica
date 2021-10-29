@@ -16,6 +16,7 @@ public class teorema7 extends javax.swing.JFrame {
      */
     public teorema7() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -27,21 +28,182 @@ public class teorema7 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        a = new javax.swing.JTextField();
+        resultado = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        ab = new javax.swing.JTextField();
+        jLabel19 = new javax.swing.JLabel();
+        s = new javax.swing.JButton();
+        b = new javax.swing.JTextField();
+        jButton2 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 899, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 519, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        a.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        a.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        getContentPane().add(a, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 210, 60, 30));
+
+        resultado.setBackground(new java.awt.Color(204, 204, 0));
+        resultado.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        resultado.setForeground(new java.awt.Color(0, 0, 0));
+        resultado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        resultado.setOpaque(true);
+        getContentPane().add(resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 390, 490, 100));
+
+        jLabel10.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel10.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel10.setText("por otro lado la probabilidad de recibir ofertas");
+        jLabel10.setOpaque(true);
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 240, 410, 30));
+
+        jLabel9.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel9.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel9.setText("¿cual es la probabilidad de obtener una oferta de estas empresas?");
+        jLabel9.setOpaque(true);
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, 590, 30));
+
+        jLabel16.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 204, 255));
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/dd.JPG"))); // NOI18N
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 80, 410, 40));
+
+        jLabel17.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel17.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel17.setText("de una Universidad despues de tener entrevistas en 2 empresas determinar la");
+        jLabel17.setOpaque(true);
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 690, 30));
+
+        jLabel20.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel20.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel20.setText("es de ");
+        jLabel20.setOpaque(true);
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, 60, 30));
+
+        jLabel14.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(0, 204, 255));
+        jLabel14.setText("Si A y B son 2 eventos, entonses");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, 390, 30));
+
+        ab.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        ab.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        ab.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                abActionPerformed(evt);
+            }
+        });
+        getContentPane().add(ab, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, 60, 30));
+
+        jLabel19.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel19.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel19.setText("probabilidad de B es ");
+        jLabel19.setOpaque(true);
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 240, 190, 30));
+
+        s.setBackground(new java.awt.Color(0, 0, 0));
+        s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s.setForeground(new java.awt.Color(255, 0, 0));
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sActionPerformed(evt);
+            }
+        });
+        getContentPane().add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 430, 70, 70));
+
+        b.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        b.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        b.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bActionPerformed(evt);
+            }
+        });
+        getContentPane().add(b, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, 60, 30));
+
+        jButton2.setBackground(new java.awt.Color(0, 0, 204));
+        jButton2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(0, 255, 204));
+        jButton2.setText("RESULTADO");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 330, 130, 40));
+
+        jLabel3.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel3.setText("Teorema 7");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, 210, 30));
+
+        jLabel6.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel6.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel6.setText("y la");
+        jLabel6.setOpaque(true);
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 210, 50, 30));
+
+        jLabel18.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel18.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel18.setText("probabilidad de lograr la oferta de empleo ala empresa A es ");
+        jLabel18.setOpaque(true);
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 530, 30));
+
+        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel15.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel15.setText("Al final del semestre John se va a graduar en la facultad de ingenieria industrial");
+        jLabel15.setOpaque(true);
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 710, 30));
+
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/de.jpg"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void abActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_abActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_abActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+   double num1 = Double.parseDouble(a.getText());
+   double num2 = Double.parseDouble(b.getText());
+   double num3 = Double.parseDouble(ab.getText());
+   double suma;
+   double resta;
+   suma=num1+num2;
+   resta=suma-num3;
+   resultado.setText("La probabilidad es :  "+resta);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void bActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bActionPerformed
+
+    private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
+        inicio teo2=new inicio();
+        teo2.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_sActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +241,23 @@ public class teorema7 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField a;
+    private javax.swing.JTextField ab;
+    private javax.swing.JTextField b;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel resultado;
+    private javax.swing.JButton s;
     // End of variables declaration//GEN-END:variables
 }

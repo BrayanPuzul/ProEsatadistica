@@ -16,6 +16,7 @@ public class teorema2 extends javax.swing.JFrame {
      */
     public teorema2() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -33,13 +34,14 @@ public class teorema2 extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         respuesta = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
+        s = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -58,10 +60,11 @@ public class teorema2 extends javax.swing.JFrame {
         });
         getContentPane().add(r, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 160, 60, 30));
 
-        jLabel4.setBackground(new java.awt.Color(255, 204, 51));
+        jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 255, 0));
         jLabel4.setText("¿cuantas selecciones posibles habria?");
+        jLabel4.setOpaque(true);
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, -1, 30));
 
         jLabel5.setBackground(new java.awt.Color(255, 204, 51));
@@ -82,48 +85,60 @@ public class teorema2 extends javax.swing.JFrame {
         jLabel7.setText("de su respectivo grado en su curso. si cada estudiante puede resibir un premio como maximo");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, 30));
 
-        jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
-        jLabel1.setText("TEOREMA 3");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 140, 40));
-
         respuesta.setBackground(new java.awt.Color(255, 204, 51));
         respuesta.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         respuesta.setForeground(new java.awt.Color(0, 0, 0));
         respuesta.setOpaque(true);
-        getContentPane().add(respuesta, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 340, 420, 100));
+        getContentPane().add(respuesta, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 350, 420, 100));
+
+        jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel1.setText("TEOREMA 3");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 20, 140, 40));
 
         jLabel3.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 255, 204));
         jLabel3.setText("El numero de permutaciones de N objetos distintos tomados de r ala vez es:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, 830, 30));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 830, 30));
 
         jLabel8.setBackground(new java.awt.Color(255, 204, 51));
         jLabel8.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Resultado:");
         jLabel8.setOpaque(true);
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 340, 100, 100));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 350, 100, 100));
 
         jButton1.setBackground(new java.awt.Color(102, 0, 102));
         jButton1.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(51, 255, 51));
         jButton1.setText("resultado");
+        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 280, 130, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 290, 150, 50));
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        s.setBackground(new java.awt.Color(0, 0, 0));
+        s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s.setForeground(new java.awt.Color(255, 0, 0));
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sActionPerformed(evt);
+            }
+        });
+        getContentPane().add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 440, 70, 70));
 
         jLabel9.setBackground(new java.awt.Color(102, 0, 102));
         jLabel9.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/das.jpg"))); // NOI18N
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 850, 500));
+        jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/10.jpg"))); // NOI18N
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 530));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 850, 500));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -156,6 +171,12 @@ public class teorema2 extends javax.swing.JFrame {
             respuesta.setText("Solo se puede ingresar numeros");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
+        inicio teo2=new inicio();
+        teo2.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_sActionPerformed
 
     /**
      * @param args the command line arguments
@@ -206,5 +227,6 @@ public class teorema2 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField r;
     private javax.swing.JLabel respuesta;
+    private javax.swing.JButton s;
     // End of variables declaration//GEN-END:variables
 }

@@ -23,6 +23,7 @@ public class teorema1 extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         datos = new javax.swing.JTextField();
+        s = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         boton = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
@@ -42,7 +43,7 @@ public class teorema1 extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 255, 0));
         jLabel6.setText("sera");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 150, 40, 30));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 140, 40, 30));
 
         datos.setBackground(new java.awt.Color(255, 255, 255));
         datos.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
@@ -52,13 +53,24 @@ public class teorema1 extends javax.swing.JFrame {
                 datosActionPerformed(evt);
             }
         });
-        jPanel1.add(datos, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 140, 50, 40));
+        jPanel1.add(datos, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 130, 50, 40));
+
+        s.setBackground(new java.awt.Color(0, 0, 0));
+        s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s.setForeground(new java.awt.Color(255, 0, 0));
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sActionPerformed(evt);
+            }
+        });
+        jPanel1.add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 410, 70, 70));
 
         jLabel5.setBackground(new java.awt.Color(255, 204, 51));
         jLabel5.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 204, 0));
         jLabel5.setText("!");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 150, 20, 30));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 140, 20, 30));
 
         boton.setBackground(new java.awt.Color(0, 51, 51));
         boton.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 11)); // NOI18N
@@ -69,42 +81,42 @@ public class teorema1 extends javax.swing.JFrame {
                 botonActionPerformed(evt);
             }
         });
-        jPanel1.add(boton, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 240, 140, 50));
+        jPanel1.add(boton, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 290, 140, 50));
 
         jLabel4.setBackground(new java.awt.Color(255, 204, 51));
         jLabel4.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 255, 0));
         jLabel4.setText("el numero de permutaciones de los objetos ");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 150, 360, 30));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, 360, 30));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(204, 0, 0));
         jLabel1.setText("TEOREMA 1");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 140, 40));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 20, 140, 40));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/200 (2).gif"))); // NOI18N
         jLabel2.setText("jLabel2");
         jLabel2.setToolTipText("");
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 130, 50, 70));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 120, 50, 70));
 
         respuesta.setBackground(new java.awt.Color(255, 204, 51));
         respuesta.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         respuesta.setForeground(new java.awt.Color(0, 0, 0));
         respuesta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         respuesta.setOpaque(true);
-        jPanel1.add(respuesta, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 300, 420, 100));
+        jPanel1.add(respuesta, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 360, 420, 100));
 
         jLabel3.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(51, 204, 255));
         jLabel3.setText("El numero de  permutaciones de n objetos es n!");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, 500, 30));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 70, 500, 30));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/DeliciousSelfassuredArcherfish-size_restricted.gif"))); // NOI18N
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 500));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fNoiY6.jpg"))); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 990, 550));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 870, 500));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -127,6 +139,12 @@ public class teorema1 extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_botonActionPerformed
+
+    private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
+        inicio teo2=new inicio();
+        teo2.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_sActionPerformed
 
 
 
@@ -156,5 +174,6 @@ public class teorema1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel respuesta;
+    private javax.swing.JButton s;
     // End of variables declaration//GEN-END:variables
 }

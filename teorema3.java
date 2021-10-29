@@ -16,6 +16,7 @@ public class teorema3 extends javax.swing.JFrame {
      */
     public teorema3() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -29,6 +30,7 @@ public class teorema3 extends javax.swing.JFrame {
 
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        s = new javax.swing.JButton();
         dat = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -42,40 +44,60 @@ public class teorema3 extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(153, 153, 153));
         jLabel3.setText("El numero de  permutaciones de n objetos en un circulo es (n-1)");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 100, 680, 30));
 
         jLabel4.setBackground(new java.awt.Color(255, 204, 51));
         jLabel4.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel4.setText("amigos alrededor de una mesa circular?");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 170, 330, 30));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 330, 30));
+
+        s.setBackground(new java.awt.Color(0, 0, 0));
+        s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s.setForeground(new java.awt.Color(255, 0, 0));
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sActionPerformed(evt);
+            }
+        });
+        getContentPane().add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 430, 70, 70));
 
         dat.setBackground(new java.awt.Color(255, 255, 255));
         dat.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
-        getContentPane().add(dat, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 170, 60, 30));
+        dat.setForeground(new java.awt.Color(0, 0, 0));
+        dat.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        dat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                datActionPerformed(evt);
+            }
+        });
+        getContentPane().add(dat, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 170, 60, 30));
 
         jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 51, 255));
         jLabel1.setText("TEOREMA 3");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 50, 140, 40));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 30, 140, 40));
 
         jLabel5.setBackground(new java.awt.Color(255, 204, 51));
         jLabel5.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel5.setText("¿De cuantas maneras se pueden sentar ");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 330, 30));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, 330, 30));
 
         jLabel8.setBackground(new java.awt.Color(255, 204, 51));
         jLabel8.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Resultado:");
         jLabel8.setOpaque(true);
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 320, 100, 100));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 340, 100, 100));
 
         res.setBackground(new java.awt.Color(255, 204, 51));
         res.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 14)); // NOI18N
         res.setForeground(new java.awt.Color(0, 0, 0));
         res.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         res.setOpaque(true);
-        getContentPane().add(res, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, 420, 100));
+        getContentPane().add(res, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 340, 420, 100));
 
         jButton1.setBackground(new java.awt.Color(255, 51, 51));
         jButton1.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 12)); // NOI18N
@@ -86,9 +108,9 @@ public class teorema3 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 240, 120, 40));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 120, 40));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fo.jpg"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 520));
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 520));
 
@@ -111,6 +133,16 @@ public class teorema3 extends javax.swing.JFrame {
             res.setText("Solo se puede ingresar numeros");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
+        inicio teo2=new inicio();
+        teo2.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_sActionPerformed
+
+    private void datActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_datActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_datActionPerformed
 
     /**
      * @param args the command line arguments
@@ -158,5 +190,6 @@ public class teorema3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel res;
+    private javax.swing.JButton s;
     // End of variables declaration//GEN-END:variables
 }

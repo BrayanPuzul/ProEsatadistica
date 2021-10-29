@@ -16,6 +16,7 @@ public class teorem6 extends javax.swing.JFrame {
      */
     public teorem6() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -67,6 +68,7 @@ public class teorem6 extends javax.swing.JFrame {
         o = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         e3 = new javax.swing.JLabel();
+        s = new javax.swing.JButton();
         e7 = new javax.swing.JLabel();
         e4 = new javax.swing.JLabel();
         e6 = new javax.swing.JLabel();
@@ -98,6 +100,9 @@ public class teorem6 extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(51, 255, 51));
         jLabel10.setText("juegos recreativos y ");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, 220, 30));
+
+        n01.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        n01.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(n01, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, 40, 30));
 
         jLabel8.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
@@ -109,12 +114,18 @@ public class teorem6 extends javax.swing.JFrame {
         jLabel11.setForeground(new java.awt.Color(51, 255, 51));
         jLabel11.setText("podria su madre llevarle ");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 260, -1));
+
+        n02.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        n02.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(n02, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 40, 30));
 
         jLabel12.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(51, 255, 51));
         jLabel12.setText("juegos recreativos y");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 190, 220, -1));
+
+        n04.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        n04.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(n04, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 190, 40, 30));
 
         jLabel9.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
@@ -190,6 +201,9 @@ public class teorem6 extends javax.swing.JFrame {
         res1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         res1.setOpaque(true);
         getContentPane().add(res1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 330, 380, 60));
+
+        n03.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        n03.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         getContentPane().add(n03, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 150, 40, 30));
 
         jLabel5.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
@@ -292,6 +306,17 @@ public class teorem6 extends javax.swing.JFrame {
         e3.setText("!");
         getContentPane().add(e3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 280, 30, 40));
 
+        s.setBackground(new java.awt.Color(0, 0, 0));
+        s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s.setForeground(new java.awt.Color(255, 0, 0));
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sActionPerformed(evt);
+            }
+        });
+        getContentPane().add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 480, 70, 70));
+
         e7.setBackground(new java.awt.Color(255, 255, 255));
         e7.setFont(new java.awt.Font("Goudy Stout", 3, 14)); // NOI18N
         e7.setForeground(new java.awt.Color(255, 255, 51));
@@ -333,7 +358,7 @@ public class teorem6 extends javax.swing.JFrame {
         getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 450, 20, 50));
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/DeliciousSelfassuredArcherfish-size_restricted.gif"))); // NOI18N
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 5, 970, 550));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 5, 970, 560));
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 970, 560));
@@ -396,6 +421,12 @@ public class teorem6 extends javax.swing.JFrame {
         } 
 
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
+        inicio teo2=new inicio();
+        teo2.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_sActionPerformed
 
     /**
      * @param args the command line arguments
@@ -481,5 +512,6 @@ public class teorem6 extends javax.swing.JFrame {
     private javax.swing.JLabel o2;
     private javax.swing.JLabel res1;
     private javax.swing.JLabel res2;
+    private javax.swing.JButton s;
     // End of variables declaration//GEN-END:variables
 }

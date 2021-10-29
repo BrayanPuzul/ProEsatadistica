@@ -16,6 +16,7 @@ public class teorema9 extends javax.swing.JFrame {
      */
     public teorema9() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -27,21 +28,414 @@ public class teorema9 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel15 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        a = new javax.swing.JTextField();
+        b = new javax.swing.JTextField();
+        c = new javax.swing.JTextField();
+        d = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        res1 = new javax.swing.JLabel();
+        f = new javax.swing.JTextField();
+        e = new javax.swing.JTextField();
+        jLabel18 = new javax.swing.JLabel();
+        s = new javax.swing.JButton();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        as1 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        as2 = new javax.swing.JLabel();
+        sumar = new javax.swing.JLabel();
+        as3 = new javax.swing.JLabel();
+        as4 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        as = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        res2 = new javax.swing.JLabel();
+        as5 = new javax.swing.JLabel();
+        esd = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        res4 = new javax.swing.JLabel();
+        r2 = new javax.swing.JLabel();
+        r1 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel15.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel15.setText("Si las probabilidades de que un mecanico automotriz de servicios a 3,4,5,6,7,8 o mas ");
+        jLabel15.setOpaque(true);
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel8.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel8.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 255, 51));
+        jLabel8.setText("P (A)+ P (A´ )= 1");
+        jLabel8.setOpaque(true);
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 60, 190, 30));
+
+        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel2.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("TEOREMA 9");
+        jLabel2.setOpaque(true);
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 10, 150, 40));
+
+        a.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        a.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(a, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 170, 50, 30));
+
+        b.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        b.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(b, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 50, 30));
+
+        c.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        c.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(c, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 170, 50, 30));
+
+        d.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        d.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(d, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 170, 50, 30));
+
+        jButton1.setBackground(new java.awt.Color(51, 0, 204));
+        jButton1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 0));
+        jButton1.setText("Resultado");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, 140, 50));
+
+        res1.setBackground(new java.awt.Color(255, 255, 51));
+        res1.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
+        res1.setForeground(new java.awt.Color(0, 0, 0));
+        res1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        res1.setOpaque(true);
+        jPanel1.add(res1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 430, 80, 40));
+
+        f.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        f.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel1.add(f, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 170, 50, 30));
+
+        e.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        e.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        e.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                eActionPerformed(evt);
+            }
+        });
+        jPanel1.add(e, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 170, 50, 30));
+
+        jLabel18.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel18.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel18.setText(",");
+        jLabel18.setOpaque(true);
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 170, 20, 30));
+
+        s.setBackground(new java.awt.Color(0, 0, 0));
+        s.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+        s.setForeground(new java.awt.Color(255, 0, 0));
+        s.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.gif"))); // NOI18N
+        s.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sActionPerformed(evt);
+            }
+        });
+        jPanel1.add(s, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 420, 70, 70));
+
+        jLabel16.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel16.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel16.setText("respectivamente ¿Cual es la probabilidad de que dé servicio almenos  5 el siguiente dia?");
+        jLabel16.setOpaque(true);
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 930, 30));
+
+        jLabel17.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel17.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel17.setText("Si las probabilidades de que un mecanico automotriz de servicios a 3,4,5,6,7,8 o mas ");
+        jLabel17.setOpaque(true);
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 920, 30));
+
+        jLabel9.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel9.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel9.setText("Si A y  A´ son eventos complementarios, entonses");
+        jLabel9.setOpaque(true);
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 530, 30));
+
+        jLabel19.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel19.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setText(",");
+        jLabel19.setOpaque(true);
+        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 170, 20, 30));
+
+        jLabel20.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel20.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel20.setText(",");
+        jLabel20.setOpaque(true);
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 170, 20, 30));
+
+        jLabel21.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel21.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel21.setText("y");
+        jLabel21.setOpaque(true);
+        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 170, 20, 30));
+
+        jLabel22.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel22.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel22.setText("=");
+        jLabel22.setOpaque(true);
+        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 440, 20, 30));
+
+        as1.setBackground(new java.awt.Color(255, 255, 255));
+        as1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        as1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        as1.setOpaque(true);
+        jPanel1.add(as1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, 50, 30));
+
+        jLabel23.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel23.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel23.setText("vehiculos en un dia de trabajo dado son");
+        jLabel23.setOpaque(true);
+        jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 420, 30));
+
+        as2.setBackground(new java.awt.Color(255, 255, 255));
+        as2.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        as2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        as2.setOpaque(true);
+        jPanel1.add(as2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 320, 60, 30));
+
+        sumar.setBackground(new java.awt.Color(255, 255, 255));
+        sumar.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        sumar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        sumar.setOpaque(true);
+        jPanel1.add(sumar, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 320, 70, 30));
+
+        as3.setBackground(new java.awt.Color(255, 255, 255));
+        as3.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        as3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        as3.setOpaque(true);
+        jPanel1.add(as3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 320, 60, 30));
+
+        as4.setBackground(new java.awt.Color(255, 255, 255));
+        as4.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        as4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        as4.setOpaque(true);
+        jPanel1.add(as4, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 320, 60, 30));
+
+        jLabel24.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel24.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel24.setText(",");
+        jLabel24.setOpaque(true);
+        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 170, 20, 30));
+
+        as.setBackground(new java.awt.Color(255, 255, 255));
+        as.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        as.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        as.setOpaque(true);
+        jPanel1.add(as, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 320, 50, 30));
+
+        jLabel25.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel25.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel25.setText("+");
+        jLabel25.setOpaque(true);
+        jPanel1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, 20, 30));
+
+        jLabel26.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel26.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel26.setText("-");
+        jLabel26.setOpaque(true);
+        jPanel1.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 440, 20, 30));
+
+        res2.setBackground(new java.awt.Color(255, 255, 51));
+        res2.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
+        res2.setForeground(new java.awt.Color(0, 0, 0));
+        res2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        res2.setOpaque(true);
+        jPanel1.add(res2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 370, 80, 40));
+
+        as5.setBackground(new java.awt.Color(255, 255, 255));
+        as5.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
+        as5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        as5.setOpaque(true);
+        jPanel1.add(as5, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 320, 50, 30));
+
+        esd.setBackground(new java.awt.Color(255, 255, 51));
+        esd.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
+        esd.setForeground(new java.awt.Color(0, 0, 0));
+        esd.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        esd.setOpaque(true);
+        jPanel1.add(esd, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 370, 70, 40));
+
+        jLabel27.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel27.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel27.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel27.setText("+");
+        jLabel27.setOpaque(true);
+        jPanel1.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 320, 20, 30));
+
+        jLabel29.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel29.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel29.setText("+");
+        jLabel29.setOpaque(true);
+        jPanel1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 320, 20, 30));
+
+        jLabel31.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel31.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel31.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel31.setText("+");
+        jLabel31.setOpaque(true);
+        jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 320, 20, 30));
+
+        jLabel28.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel28.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel28.setText("+");
+        jLabel28.setOpaque(true);
+        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 320, 20, 30));
+
+        jLabel30.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel30.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel30.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel30.setText("=");
+        jLabel30.setOpaque(true);
+        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 320, 20, 30));
+
+        jLabel32.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel32.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel32.setText("+");
+        jLabel32.setOpaque(true);
+        jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 370, 20, 30));
+
+        jLabel33.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel33.setFont(new java.awt.Font("Franklin Gothic Demi", 0, 24)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel33.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel33.setText("=");
+        jLabel33.setOpaque(true);
+        jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 380, 20, 30));
+
+        res4.setBackground(new java.awt.Color(255, 255, 51));
+        res4.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
+        res4.setForeground(new java.awt.Color(0, 0, 0));
+        res4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        res4.setOpaque(true);
+        jPanel1.add(res4, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 370, 70, 40));
+
+        r2.setBackground(new java.awt.Color(255, 255, 51));
+        r2.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
+        r2.setForeground(new java.awt.Color(0, 0, 0));
+        r2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        r2.setOpaque(true);
+        jPanel1.add(r2, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 430, 70, 40));
+
+        r1.setBackground(new java.awt.Color(255, 255, 51));
+        r1.setFont(new java.awt.Font("Gill Sans Ultra Bold", 0, 18)); // NOI18N
+        r1.setForeground(new java.awt.Color(0, 0, 0));
+        r1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        r1.setOpaque(true);
+        jPanel1.add(r1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 430, 70, 40));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/2.jpg"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 530));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 990, 530));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        double num1 = Double.parseDouble(a.getText());
+        double num2 = Double.parseDouble(b.getText());
+        double num3 = Double.parseDouble(c.getText());
+        double num4= Double.parseDouble(d.getText());
+        double num5= Double.parseDouble(e.getText());
+        double num6= Double.parseDouble(f.getText());
+        int fac=1;
+        double suma;
+        double suma1;
+        double suma2;
+        double sum;
+        double sumi;
+        suma=num1+num2;
+        suma1=num3+num4;
+        suma2=num5+num6;
+        sum=suma+suma1+suma2;
+        sumi=fac-suma;
+        as.setText(""+num1);
+        as1.setText(""+num2);
+        as2.setText(""+ num3);
+        as3.setText(""+ num4);
+        as4.setText(""+ num5);
+        as5.setText(""+ num6);
+       
+        sumar.setText(""+sum);
+        res1.setText(""+sumi);
+        esd.setText(""+num1);
+        res4.setText(""+num2);
+        res2.setText(""+suma);
+        r1.setText(""+fac);
+        r2.setText(""+suma);
+        
+        
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void sActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sActionPerformed
+        inicio teo2=new inicio();
+        teo2.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_sActionPerformed
+
+    private void eActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_eActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +473,50 @@ public class teorema9 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField a;
+    private javax.swing.JLabel as;
+    private javax.swing.JLabel as1;
+    private javax.swing.JLabel as2;
+    private javax.swing.JLabel as3;
+    private javax.swing.JLabel as4;
+    private javax.swing.JLabel as5;
+    private javax.swing.JTextField b;
+    private javax.swing.JTextField c;
+    private javax.swing.JTextField d;
+    private javax.swing.JTextField e;
+    private javax.swing.JLabel esd;
+    private javax.swing.JTextField f;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel r1;
+    private javax.swing.JLabel r2;
+    private javax.swing.JLabel res1;
+    private javax.swing.JLabel res2;
+    private javax.swing.JLabel res4;
+    private javax.swing.JButton s;
+    private javax.swing.JLabel sumar;
     // End of variables declaration//GEN-END:variables
 }
